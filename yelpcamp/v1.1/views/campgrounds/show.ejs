@@ -1,0 +1,28 @@
+<% include ../partials/header %>
+<div class="container">
+  
+  <div class="container jumbotron">
+    <h1><%= campground.name %></h1>
+    <img class="img-thumbnail center-block" src="<%= campground.image %>">
+    <p>
+      <%= campground.description %>
+    </p>
+    <hr class="my-4">
+    <p><a class="btn btn-success" href="/campgrounds/<%=campground._id%>/comments/new">Add a Comment</a></p>
+  </div>
+  
+  <div class="container jumbotron">
+    <% campground.comments.forEach(function(comment) { %>
+      <p><strong><%= comment.author %></strong></p> 
+      <p><%= comment.text %></p>
+      <hr class="my-4">
+    <% }); %>
+  </div>
+  
+</div>
+
+
+
+
+
+<% include ../partials/footer %>

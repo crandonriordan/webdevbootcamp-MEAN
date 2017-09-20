@@ -9,3 +9,14 @@
 * user module.exports
 * Require everything correctly
 
+#Comments
+* Make errors go away
+* Display comments on show page
+
+#Comment New/Create
+* Discuss nested routes
+* add the comment new and create routes
+* Add the new comment form
+
+
+

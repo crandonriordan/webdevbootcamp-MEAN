@@ -1,0 +1,33 @@
+.thumbnail {
+    width: auto;
+}
+.thumbnail a>img {
+    width: 250px;
+    height: auto;
+}
+
+.container img {
+    width: 40%;
+    height: auto;
+}
+
+.img-thumbnail {
+    margin: 5px auto;
+}
+
+.container.container {
+    margin: 20px auto;
+}
+
+.container p {
+    text-align: left;
+}
+
+.jumbotron {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+}
